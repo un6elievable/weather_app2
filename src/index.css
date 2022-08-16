@@ -5,9 +5,33 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url('123.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.container{
+  
+  margin: 50px  auto;
+}
+.data-container{
+  height: auto;
+  width: 60%;
+  margin: 0 auto;
+  color: aliceblue;
+  background-color: rgba(128, 164,252, .1);
+  border-radius: 20px;
+}
+
+input{
+  outline: none;
+  border: none;
+  border-radius: 3px;
 }
